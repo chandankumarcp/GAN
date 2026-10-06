@@ -2,6 +2,10 @@
 
 A DCGAN implemented with Keras/TensorFlow that generates 32x32 CIFAR-10-style images.
 
+## Description
+
+This repository contains a compact, end-to-end implementation of a Deep Convolutional Generative Adversarial Network (DCGAN) in Python. A generator and a discriminator are trained against each other on the CIFAR-10 dataset, so that the generator learns to produce realistic synthetic 32x32 color images. The project covers data exploration, model definition, adversarial training, and sample generation from the trained generator.
+
 ## Structure
 
 | File | Purpose |
@@ -11,6 +15,7 @@ A DCGAN implemented with Keras/TensorFlow that generates 32x32 CIFAR-10-style im
 | `models.py` | Discriminator, generator and combined GAN |
 | `train.py` | Training loop; saves generator to `cifar10_generator.h5` |
 | `generate.py` | Load the saved generator and plot generated images |
+| `requirements.txt` | Python dependencies (TensorFlow, NumPy, Matplotlib) |
 
 ## Usage
 
