@@ -20,3 +20,7 @@ python explore_data.py   # optional
 python train.py          # trains and saves cifar10_generator.h5
 python generate.py       # shows 16 generated images
 ```
+
+The colab link-https://colab.research.google.com/drive/1-mWnnVe1WGNqpje89sStfkQ1jsYBKK2k?usp=sharing
+
+The reference link-https://machinelearningmastery.com/generative-adversarial-network-loss-functions/
